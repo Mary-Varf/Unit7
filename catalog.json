@@ -1,0 +1,56 @@
+{
+    [
+        {
+            "title": "The Great Gatsby",
+            "author": {
+                "firstName": "F. Scott",
+                "lastName": "Fitzgerald"
+            },
+            "publicationYear": 1925,
+            "details": {
+                "publisher": "Charles Scribner's Sons",
+                "pageCount": 218,
+                "available": true
+            }
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": {
+                "firstName": "Harper",
+                "lastName": "Lee"
+            },
+            "publicationYear": 1960,
+            "details": {
+                "publisher": "J.B. Lippincott & Co.",
+                "pageCount": 281,
+                "available": true
+            }
+        },
+        {
+            "title": "1984",
+            "author": {
+                "firstName": "George",
+                "lastName": "Orwell"
+            },
+            "publicationYear": 1949,
+            "details": {
+                "publisher": "Secker & Warburg",
+                "pageCount": 328,
+                "available": false
+            }
+        },
+        {
+            "title": "War and Peace",
+            "author": {
+                "firstName": "Leo",
+                "lastName": "Tolstoy"
+            },
+            "publicationYear": 1869,
+            "details": {
+                "publisher": "The Russian Messenger",
+                "pageCount": 1225,
+                "available": true
+            }
+        }
+    ]
+}
