@@ -1,0 +1,34 @@
+/* I removed all margins and paddings to 
+control how elements are spaced, instead of relying on browser defaults. */
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(239, 239, 241);
+}
+
+.main {
+  max-width: 1000px;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+li {
+  margin: 20px 0;
+}
+@media (max-width: 500px) {
+  .main {
+      padding: 1.5rem;
+  }
+  li {
+    margin: 10px 0;
+  }
+}
